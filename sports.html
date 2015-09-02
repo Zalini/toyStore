@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vintage Sport Toys</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+<div id="lightbox">
+	<button id="btn">Click to Close</button>	
+
+	<div id="pic1">
+		<h1>Dempsey Sports Pack</h1>
+		<img src="sport/dempsey_sport.jpg" alt="dempseySport" width="500px" height="500px">
+		<p>Vintage Dempsey Vs. Firpo sports pack complete in packaging</p>
+		<h3>$18.00</h3>
+	</div>
+</div>
+
+
+
+
+
+<div id="header">
+	<h1>Butch's <i>Vintage</i> Toys<img src="kid.png" width="100px" height="100px"/></h1>
+</div>
+
+<div id="navi">
+<div class="row">
+	<a href="sports.html"><div class="col-md-1">Sports Toys</div></a>
+	<a href="cars.html"><div class="col-md-1">Cars</div></a>
+	<a href="guns.html"><div class="col-md-1">Guns</div></a>
+	<a href="cameras.html"><div class="col-md-1">Cameras</div></a>
+	<a href="windup.html"><div class="col-md-1">Wind-Up</div></a>
+	<a href="oddity.html"><div class="col-md-1">Oddity</div></a>
+	<a href="magicjokes.html"><div class="col-md-1">Magic/Jokes</div></a>
+	<a href="figures.html"><div class="col-md-1">Figures</div></a>
+	<a href="kits.html"><div class="col-md-1">Kits</div></a>
+	<a href="boxed.html"><div class="col-md-1">Boxed</div></a>
+	<a href="collectible"><div class="col-md-1">Collectible</div></a>
+	<a href="packaged.html"><div class="col-md-1">Packaged</div></a>
+</div>
+</div>
+
+<h1 id="name">Sports Toys</h1>
+<div class="one">
+	<div class="row">
+		<div class="col-md-2">
+		<img class="pictura" src="sport/dempsey_sport.jpg" alt="dempseySport" width="180px" height="180px">
+		<p>Dempsey Sports Pack</p>
+		</div>
+
+		<div class="col-md-2">
+		<img class="pictura" src="sport/milk_lg.jpg" alt="milk" width="180px" height="180px">
+		<p>Vintage Milk Carton</p>
+		</div>
+
+		<div class="col-md-2"><img class="pictura" src="sport/mitt_1.jpg" alt="Mitt1" width="180px" height="180px">
+		<p>Toy Mitt</p>
+		</div>	
+	
+		<div class="col-md-2"><img class="pictura" src="sport/mitt_2.jpg" alt="Mitt2" width="180px" height="180px">
+		<p>Toy Mitt</p>
+		</div>
+	
+		<div class="col-md-2"><img class="pictura" src="sport/mitt_3.jpg" alt="Mitt3" width="180px" height="180px">
+		<p>Toy Mitt</p>
+		</div>
+
+		<div class="col-md-2"><img class="pictura" src="sport/mitt_4.jpg" alt="Mitt4" width="180px" height="180px">
+		<p>Toy Mitt</p>
+		</div>
+
+
+	</div>
+</div>
+
+
+<div class="one">
+	<div class="row">
+		<div class="col-md-2"><img src="sport/mitt_5.jpg" alt="Mitt5" width="180px" height="180px">
+		<p>Toy Mitt</p>
+		</div>
+
+		<div class="col-md-2"><img src="sport/mitt_6.jpg" alt="Mitt5" width="180px" height="180px">
+		<p>Toy Mitt</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+//	 $(".one img").mouseover(function(){
+//	 	$(this).fadeOut(200);
+//	 });
+//	 $(".one img").mouseleave(function(){
+//	 	$(this).fadeIn(200);
+//	 });
+
+	 $(".one img").click(function(){
+	 	$("#lightbox, #btn").fadeIn(200);
+	 	$("#pic1").show().css({"width":"900px", "height":"900px"});
+	});
+
+	 $("#btn").click(function(){
+	 	$("#lightbox, #btn").fadeOut(200);
+	 });
+
+
+});
+</script>
+
+
+
+
+
+</body>
+</html>

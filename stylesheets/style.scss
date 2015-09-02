@@ -1,0 +1,85 @@
+$fav-color: rgb(255, 200, 117);
+$unit: 300px;
+$font: 20px;
+$frame: rgb(88, 26, 32);
+$font-color: #08707F;
+
+
+body {
+	background: white; 
+	color: $font-color;
+
+}
+
+#header {
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	border-bottom: solid $frame 18px;
+	color: $font-color;
+}
+
+#navi{
+	font-size: 16px;
+	width: 100%;
+}
+
+#name{
+	text-align: center;
+	margin-top: 5%;
+	font-size: 1.8em;
+}
+
+.one {
+	//background: rgba(255, 200, 117, 0.4);
+	background: rgba(235, 250, 131, 0.4 );
+	height: $unit;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-top: 1%;
+	text-align: center;
+	box-shadow: -5px 5px 5px rgba(88, 26, 32, 0.3);
+}
+
+.row {
+	margin: 15px;
+}
+
+.one img {
+	border-radius: 20%;
+	box-shadow: -8px 5px 5px rgba(88, 26, 32, 0.3);
+	margin: 0 auto;
+}
+
+p {
+	text-align: center;
+	margin: 5%;
+	font-size: 1.2em;
+}
+
+
+#lightbox{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	background: #d3d3d3;
+	opacity: 0.6;
+	overflow: hidden;
+	display: none;
+}
+
+#btn{
+	display: none;
+}
+
+#pic1 {
+	display: none;
+}
+
+.pictura:hover {
+	background: black;
+	opacity: 0.3;
+}
+
